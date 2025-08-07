@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=2 python Train_Test_comprehensive.py --task 2 --gpu 2
 ```bash
 CUDA_VISIBLE_DEVICES=3 python Train_Test_comprehensive.py --task 3 --gpu 3
 ```
-To reduce the reproduction difficulty and computational cost, we only provide GPT-2 as the LLM backbone in the code. For other backbones such as Qwen or LLaMA, please download them from their official websites.
+To reduce the reproduction difficulty and computational cost, we only provide the lightweight GPT-2 as the LLM backbone in the code. For other backbones such as Qwen or LLaMA, please download them from their official websites.
 ## 2. Dataset of SenseLLM
    
 The training and testing datasets can be accessed via the following link: 
