@@ -1,0 +1,87 @@
+# LLM4CP Complete Environment Requirements
+# Core Deep Learning Framework
+torch==2.0.0
+torchvision==0.15.0
+torchaudio==2.0.0
+torchmetrics==0.11.4
+
+# Transformers and LLM Libraries
+transformers==4.37.2
+accelerate==0.16.0
+peft==0.11.1
+tokenizers==0.13.3
+sentencepiece==0.1.99
+einops==0.7.0
+
+# Data Processing and Analysis
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.10.1
+h5py==3.10.0
+hdf5storage==0.1.19
+pyarrow==13.0.0
+
+# Machine Learning and Statistics
+scikit-learn==1.2.2
+xgboost==1.7.6
+lightgbm==3.3.5
+catboost==1.2.2
+statsmodels==0.14.0
+
+# Visualization
+matplotlib==3.7.5
+seaborn==0.13.2
+plotly==5.17.0
+Pillow==9.5.0
+
+# Computer Vision
+opencv-python==4.11.0.86
+scikit-image==0.19.3
+
+# Model Evaluation and Metrics
+evaluate==0.3.0
+seqeval==1.2.2
+
+# Utilities and Tools
+tqdm==4.65.0
+requests==2.32.3
+urllib3==2.2.3
+certifi==2023.5.7
+click==8.1.7
+packaging==23.0
+
+# File and Data Handling
+fsspec==2023.10.0
+huggingface-hub==0.28.1
+safetensors==0.4.0
+
+# Development and Testing
+pytest
+black
+flake8
+ruff==0.9.6
+
+# Optional Advanced Features (uncomment if needed)
+# tensorboard==2.13.0
+# wandb
+# mlflow
+# ray==2.3.1
+# optuna
+# hyperopt==0.2.7
+
+# Additional ML Tools
+joblib==1.3.1
+threadpoolctl==3.2.0
+
+# Network and API
+aiohttp==3.8.6
+httpx==0.28.1
+
+# Configuration and Serialization
+PyYAML==6.0.1
+ruamel.yaml==0.17.21
+tomlkit==0.12.0
+
+# Performance and Monitoring
+psutil==5.9.6
+nvidia-ml-py==12.535.108
