@@ -19,24 +19,13 @@ conda activate myenv
     pip3 install numpy scipy tensorboard tqdm matplotlib torchvision pytorch_fid
     ```
 
-For more details about the environment configuration, refer to the `requirements.txt` file in [releases](https://github.com/mobicom24/RF-Diffusion/releases/tag/dataset_model).
-
-Download or `git clone` the `RF-Diffusion` project. Download and unzip `dataset.zip` and `model.zip` in [releases](https://github.com/mobicom24/RF-Diffusion/releases/tag/dataset_model) to the project directory.
-
-```bash
-unzip -q dataset.zip -d 'RF-Diffusion/dataset'
-unzip -q model.zip -d 'RF-Diffusion'
-```
+For more details about the environment configuration, refer to the `requirements.txt` file.
 
 
+## 1. Train and Test
 
-## 0. Prerequisite
-2. Train and Test: 
+
+## 2. Dataset of SenseLLM
    
-3. Dataset of SenseLLM:
+The training and testing datasets can be accessed via the following link: URL: https://pan.baidu.com/s/1Umom0eA5KV-TEG7_zJ21ZA. Access code: 2026
 
-   The training and testing datasets can be accessed via the following link:
-   URL: https://pan.baidu.com/s/1Umom0eA5KV-TEG7_zJ21ZA
-   Access code: 2026
-
-4. 
