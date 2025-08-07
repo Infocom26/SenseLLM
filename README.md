@@ -11,7 +11,10 @@ RF-Diffusion is implemented with [Python 3.8](https://www.python.org/downloads/r
 # 这是 Bash 命令
 conda create -n myenv python=3.8
 conda activate myenv
-‘’‘
+
+
+
+
 
 ## 0. Prerequisite
 2. Train and Test: 
