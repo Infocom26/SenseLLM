@@ -29,5 +29,8 @@ For more details about the environment configuration, refer to the `requirements
    
 The training and testing datasets can be accessed via the following link: 
 ```bash
-URL: https://pan.baidu.com/s/1Umom0eA5KV-TEG7_zJ21ZA. Access code: 2026
+URL: https://pan.baidu.com/s/1Umom0eA5KV-TEG7_zJ21ZA
+```
+```bash
+Access code: 2026
 ```
