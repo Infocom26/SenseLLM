@@ -5,7 +5,7 @@ This code repository presents our unified large model for multi-task wireless se
 
 SenseLLM is implemented with [Python 3.8](https://www.python.org/downloads/release/python-380/) and [PyTorch 2.0.1](https://pytorch.org/get-started/previous-versions/). We manage the development environment using [Conda](https://docs.conda.io/en/latest/). Execute the following commands to configure the development environment.
 
-- Create a conda environment called `RF-Diffusion` based on Python 3.8, and activate the environment.
+- Create a conda environment called `SenseLLM` based on Python 3.8, and activate the environment.
 
 ```bash
 conda create -n myenv python=3.8
@@ -23,8 +23,19 @@ For more details about the environment configuration, refer to the `requirements
 
 
 ## 1. Train and Test
-
-
+All detailed model code of SenseLLM is located in the Model directory. To reproduce this process, please follow the steps below.
+- Fall Detection: Fill in the dataset path and run the following command in the terminal:
+```bash
+CUDA_VISIBLE_DEVICES=1 python Train_Test_comprehensive.py --task 1 --gpu 1
+```
+- Gesture Recognition: Fill in the dataset path and run the following command in the terminal:
+```bash
+CUDA_VISIBLE_DEVICES=2 python Train_Test_comprehensive.py --task 2 --gpu 2
+```
+- Gait Recognition: Fill in the dataset path and run the following command in the terminal:
+```bash
+CUDA_VISIBLE_DEVICES=3 python Train_Test_comprehensive.py --task 3 --gpu 3
+```
 ## 2. Dataset of SenseLLM
    
 The training and testing datasets can be accessed via the following link: 
