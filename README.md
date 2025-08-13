@@ -1,5 +1,25 @@
 # SenseLLM
-This code repository presents our unified large model for multi-task wireless sensing, SenseLLM.
+
+**SenseLLM** is a **unified large language model (LLM) framework** for **multi-task wireless sensing**.  
+It leverages the **reasoning, representation learning, and cross-task generalization** abilities of LLMs to handle diverse sensing tasks within a single architecture.
+
+## 🌟 Highlights
+- **Unified Foundation Model** – A single LLM backbone for multiple wireless sensing tasks, breaking the one-model-per-task limitation.
+- **Cross-Task Generalization** – Learns shared and task-specific features, enabling seamless adaptation to new sensing scenarios.
+- **Task-Aware Representation Learning** – Dynamically adapts sensing features based on task requirements.
+- **Scalable to Stronger LLMs** – Default GPT-2 for reproducibility, but can be replaced with Qwen, LLaMA, or other large-scale pre-trained models.
+
+---
+
+## 0. Prerequisite
+
+SenseLLM is implemented with [Python 3.8](https://www.python.org/downloads/release/python-380/) and [PyTorch 2.0.1](https://pytorch.org/get-started/previous-versions/).  
+We recommend using [Conda](https://docs.conda.io/en/latest/) to manage the development environment.
+
+- Create a conda environment and activate it:
+```bash
+conda create -n SenseLLM python=3.8
+conda activate SenseLLM
 
 ## 0. Prerequisite
 
@@ -36,7 +56,10 @@ CUDA_VISIBLE_DEVICES=2 python Train_Test_comprehensive.py --task 2 --gpu 2
 ```bash
 CUDA_VISIBLE_DEVICES=3 python Train_Test_comprehensive.py --task 3 --gpu 3
 ```
-To reduce the reproduction difficulty and computational cost, we only provide the lightweight GPT-2 as the LLM backbone in the code. For other backbones such as Qwen or LLaMA, please download them from their official websites.
+
+
+Note: For ease of reproduction and reduced computational cost, we provide lightweight GPT-2 as the default LLM backbone.
+To fully exploit SenseLLM’s capabilities, replace GPT-2 with more powerful backbones such as Qwen or LLaMA.
 ## 2. Dataset of SenseLLM
 To successfully run the code, you need to set the dataset path in the code as follows:
 
@@ -47,7 +70,7 @@ Data Path of Fall Detection:
 ```
 Data Path of Gesture Recognition:
 ```bash
- ./20250708
+ ./Gesture
 ```
 Data Path of Gait Recognition:
 ```bash
