@@ -46,6 +46,15 @@ URL: https://pan.baidu.com/s/1Umom0eA5KV-TEG7_zJ21ZA
 ```bash
 Access code: 2026
 ```
-Data Path of Fall Detection: ./denoisemat
-Data Path of Gesture Recognition: ./20250708
-Data Path of Gait Recognition: ./Gait
+Data Path of Fall Detection:
+```bash
+ ./denoisemat
+```
+Data Path of Gesture Recognition:
+```bash
+ ./20250708
+```
+Data Path of Gait Recognition:
+```bash
+ ./Gait
+```
