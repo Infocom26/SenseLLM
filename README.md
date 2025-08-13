@@ -20,7 +20,7 @@ We recommend using [Conda](https://docs.conda.io/en/latest/) to manage the devel
 ```bash
 conda create -n SenseLLM python=3.8
 conda activate SenseLLM
-
+```
 ## 0. Prerequisite
 
 SenseLLM is implemented with [Python 3.8](https://www.python.org/downloads/release/python-380/) and [PyTorch 2.0.1](https://pytorch.org/get-started/previous-versions/). We manage the development environment using [Conda](https://docs.conda.io/en/latest/). Execute the following commands to configure the development environment.
