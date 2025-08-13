@@ -7,7 +7,7 @@ It leverages the **reasoning, representation learning, and cross-task generaliza
 - **Unified Foundation Model** – A single LLM backbone for multiple wireless sensing tasks, breaking the one-model-per-task limitation.
 - **Cross-Task Generalization** – Learns shared and task-specific features, enabling seamless adaptation to new sensing scenarios.
 - **Task-Aware Representation Learning** – Dynamically adapts sensing features based on task requirements.
-- **Scalable to Stronger LLMs** – Default GPT-2 for reproducibility, but can be replaced with Qwen, LLaMA, or other large-scale pre-trained models.
+- **Scalable to Stronger LLMs** – Default GPT-2 for reproducibility, which contains fewer than 1 billion parameters，but can be replaced with Qwen, LLaMA, or other large-scale pre-trained models.
 
 ---
 
